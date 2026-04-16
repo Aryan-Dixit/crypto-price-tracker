@@ -1,0 +1,99 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.header {
+  border-bottom: 1px solid #ddd;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.symbol {
+  font-weight: 600;
+}
+
+.subText {
+  font-size: 11px;
+  color: #666;
+}
+
+.priceSection {
+  text-align: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 12px;
+}
+
+.main {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.panelContent {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.divider {
+  border-right: 1px solid #ddd;
+}
+
+.chartContainer {
+  height: 140px;
+  margin-top: 6px;
+  border-top: 1px solid #eee;
+  padding-top: 4px;
+}
+
+.chartTitle {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.footer {
+  border-top: 1px solid #eee;
+  padding: 6px 16px;
+  font-size: 12px;
+  color: green;
+  text-align: center;
+}

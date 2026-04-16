@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.button {
+  padding: 4px 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: white;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background: #eee;
+}
+
+.active {
+  background: #333;
+  color: white;
+  border-color: #333;
+}

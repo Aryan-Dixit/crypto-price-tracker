@@ -1,0 +1,17 @@
+body {
+  background: white;
+  color: black;
+}
+
+.dark {
+  background: #111;
+  color: white;
+}
+
+.dark .row {
+  border-color: #333;
+}
+
+.dark .header {
+  border-color: #333;
+}
