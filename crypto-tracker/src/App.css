@@ -1,17 +1,60 @@
+/* Base reset */
 body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #111;
+}
+
+/* Page container */
+.page {
+  padding: 20px;
+}
+
+/* Table Header */
+.header {
+  display: grid;
+  grid-template-columns: 40px 1.5fr 1fr 1fr 1fr;
+  padding: 10px;
+  font-weight: bold;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Row */
+.row {
+  display: grid;
+  grid-template-columns: 40px 1.5fr 1fr 1fr 1fr;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+/* Hover */
+.row:hover {
+  background: #f5f5f5;
+}
+
+/* Input */
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+button {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
   background: white;
-  color: black;
+  cursor: pointer;
+  border-radius: 4px;
 }
 
-.dark {
-  background: #111;
-  color: white;
-}
-
-.dark .row {
-  border-color: #333;
-}
-
-.dark .header {
-  border-color: #333;
+button:hover {
+  background: #eee;
 }
