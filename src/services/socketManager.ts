@@ -11,7 +11,7 @@ class SocketManager {
   private status: "connecting" | "connected" | "disconnected" = "disconnected";
   private statusListeners = new Set<(s: string) => void>();
 
-  private WS_URL = "ws://localhost:8080";
+  private WS_URL = import.meta.env.VITE_WS_URL || "ws://localhost:8080";
 
   // CONNECT
   connect() {
